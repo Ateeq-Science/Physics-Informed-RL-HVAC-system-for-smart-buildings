@@ -41,46 +41,37 @@ Copy code
 
 ---
 
-🖥️ Installation
+## 🖥️ Installation
 Clone this repository:
 git clone https://github.com/Ateeq-Science/Physics-Informed-RL-HVAC-system-for-smart-buildings.git
 cd Physics-Informed-RL-HVAC-system-for-smart-buildings
 
 Install dependencies:
 pip install -r requirements.txt
+
 Run the Streamlit app:
-
 streamlit run 6_streamlit_app.py
-📊 Results
+
+## 📊 Results
 Baseline scenario (23–25 °C) compared with multiple comfort bands.
-
 AC1 & AC4 showed up to 49.7% cost savings under Aggressive Savings mode.
-
 Streamlit dashboards provide interactive monthly cost and energy visualizations.
-
 PDF reports summarize KPIs, scenario comparisons, and dataset limitations.
 
-🔮 Future Work
+## 🔮 Future Work
 Extend RL integration using PPO and DQN.
-
 Multi-agent HVAC optimization across zones.
-
 Incorporate renewable energy and demand response signals.
-
 Real-world deployment and occupant feedback integration.
 
-📚 References
+## 📚 References
 ASHRAE (2020). ANSI/ASHRAE Standard 55.
-
 Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., Ma, W., Ye, Q., & Liu, T.-Y. (2017). LightGBM. NeurIPS.
-
 Ontario Energy Board (2023). Time-of-Use Pricing.
-
 Wei, T., Wang, Y., & Zhu, Q. (2017). Deep RL for HVAC Control. DAC.
-
 Zhang, Z., Lam, K. P., & Hong, T. (2021). RL for Energy Efficiency. Building and Environment.
 
-👤 Author
+##👤 Author
 Mohammed Ateeq
 M.Sc. Data Science & Analytics, Toronto Metropolitan University
 Supervisor: Professor Alan Fung
